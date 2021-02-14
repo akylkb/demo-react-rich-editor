@@ -1,0 +1,32 @@
+.toolbar {
+  border: 1px solid #2D3A41;
+}
+
+.toolbar button {
+  border: 0;
+  background: transparent;
+  color: #fff;
+  padding: 11px 20px;
+  outline: none;
+}
+
+.toolbar button:hover {
+  color: #13A4EC;
+  cursor: pointer;
+}
+
+.toolbar button:not(:first-child) {
+  border-left: 1px solid #2D3A41;
+}
+
+.button_italic {
+  font-style: italic;
+}
+
+.button_underline {
+  text-decoration: underline;
+}
+
+.button_strike {
+  text-decoration: line-through;
+}

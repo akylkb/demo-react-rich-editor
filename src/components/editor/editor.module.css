@@ -1,0 +1,17 @@
+.wrap {
+  display: flex;
+  height: calc(100vh - 60px);
+  padding: 30px;
+}
+
+.editor {
+  margin: 0 auto;
+  max-width: 608px;
+  width: 100%;
+  padding: 30px;
+  outline: none;
+  background: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+  overflow: auto;
+}
